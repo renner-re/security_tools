@@ -136,29 +136,21 @@ def get_all_links(url):
 #               function to detect CSRF                  #
 ##########################################################
 def detect_csrf(url, param):
-    payload = 
-    response = response.get()
 
 ##########################################################
 #     function to detect Directory Traversal at a url    #
 ##########################################################
 def detect_dir_trav(url, param):
-    payload = 
-    response = response.get()
 
 ##########################################################
 #   function to detect Remote Code Execution at a url    #
 ##########################################################
 def detect_rem_code_exec(url, param):
-    payload = 
-    response = response.get()
 
 ###########################################################
 # function to detect File Upload vulnerabilities at a url #
 ###########################################################
 def detect_file_upload(url, param):
-    payload = 
-    response = response.get()
 
 ####################################################################
 #                          Create Reporting                        #
